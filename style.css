@@ -51,33 +51,33 @@
     height:4vw;
     width:4vw;
     margin-left:1.5vw;
-    opacity:1;
+    opacity:0.2;
 }
 
 .smile_outline_1{
     height:4vw;
     width:4vw;
-    opacity:1;
+    opacity:0.2;
     /* margin-left:1.5vw; */
 }
 
 .welcome_background{
-    background-color:#FF477E;
+    background: rgba(250, 167, 244, 0.83);
     margin-top:6vw;
     border:1.5vw solid white;
 }
 
 
-.overlay{
-    position:absolute;
+/* .overlay{
+    position:absolute; */
     /* left: 20vw;; */
-    top: 6vw;
+    /* top: 6vw;
     width: 100vw;
     height: 40vw;
     z-index: 2;
     background: rgba(226, 175, 255, 0.83);
     border:1.5vw solid white;
-}
+} */
 
 .welcome{
     position:absolute;
