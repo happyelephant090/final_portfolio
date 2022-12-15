@@ -1,1 +1,183 @@
-hi
+/* ibm-plex-sans-regular - latin */
+@font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/ibm-plex-sans-v14-latin/ibm-plex-sans-v14-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/ibm-plex-sans-v14-latin/ibm-plex-sans-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/ibm-plex-sans-v14-latin/ibm-plex-sans-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/ibm-plex-sans-v14-latin/ibm-plex-sans-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/ibm-plex-sans-v14-latin/ibm-plex-sans-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/ibm-plex-sans-v14-latin/ibm-plex-sans-v14-latin-regular.svg#IBMPlexSans') format('svg'); /* Legacy iOS */
+}
+
+/* holtwood-one-sc-regular - latin */
+@font-face {
+    font-family: 'Holtwood One SC';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/holtwood-one-sc-v16-latin/holtwood-one-sc-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/holtwood-one-sc-v16-latin/holtwood-one-sc-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/holtwood-one-sc-v16-latin/holtwood-one-sc-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/holtwood-one-sc-v16-latin/holtwood-one-sc-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/holtwood-one-sc-v16-latin/holtwood-one-sc-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/holtwood-one-sc-v16-latin/holtwood-one-sc-v16-latin-regular.svg#HoltwoodOneSC') format('svg'); /* Legacy iOS */
+}
+
+.navbar{
+    border:0.1vw solid white;
+}
+.nav-brand{
+    color:#FFCEFF !important;
+    text-decoration:none;
+    font-family: 'IBM Plex Sans';
+    font-size: 2.7rem;
+    letter-spacing:0.3vw;
+    margin-left:1vw;
+    
+}
+
+.nav-item .nav-link{
+    color:#FFCEFF !important;
+    font-size:1.7rem;
+    font-family: 'IBM Plex Sans';
+    margin-right:0.7vw;
+    margin-left:3vw;
+}
+
+.smile_outline{
+    height:4vw;
+    width:4vw;
+    margin-left:1.5vw;
+    opacity:1;
+}
+
+.smile_outline_1{
+    height:4vw;
+    width:4vw;
+    opacity:1;
+    /* margin-left:1.5vw; */
+}
+
+.welcome_background{
+    background-color:#FF477E;
+    margin-top:6vw;
+    border:1.5vw solid white;
+}
+
+
+.overlay{
+    position:absolute;
+    /* left: 20vw;; */
+    top: 6vw;
+    width: 100vw;
+    height: 32.5vw;
+    z-index: 2;
+    background: rgba(226, 175, 255, 0.83);
+    border:1.5vw solid white;
+}
+
+.welcome{
+    position:absolute;
+    left: 37vw;;
+    top: 17vw;
+    width: 555px;
+    height: 200px;
+    z-index: 2;
+} 
+
+.welcome_title{
+    color:white;
+    font-family: 'Holtwood One SC';
+    font-size:5rem;
+   
+}
+
+.intro_slogan{
+    color:white;
+    font-family: 'IBM Plex Sans';
+    /* text-align:center; */
+    margin-right:0.75vw;
+    font-size:2.25rem;
+}
+
+.smile_outline_2{
+    height:2vw;
+    width:2vw;
+    margin-left:1.5vw;
+    opacity:0.12;
+}
+
+.scroll_banner{
+    /* position:relative; */
+    background: rgba(184, 242, 230, 0.8);
+    height:17vw;
+    border:1.5vw solid white;
+}
+
+.scroll_slogan{
+    font-size:2.25rem;
+    color:black;
+    margin-left:1vw;
+}
+
+.arrow{
+    height:3vw;
+    align-items:center;
+    justify-content:center;
+}
+
+.work_title{
+    font-size:2.55rem;
+    font-family: 'Holtwood One SC';
+    color:black;
+}
+
+.col-lg-6 {
+    /* marginz; */
+    /* margin-bottom:3vw !important;
+    margin-top:3vw !important; */
+    background-color:#FF5A5F;
+    border:1.75vw solid white;
+    /* 025b6d */
+}
+.persona_phone_image{
+    width:40vw;
+    margin-left:2vw !important;
+}
+
+.persona_col{
+    background-color:#FF5A5F;
+}
+
+.iterative_col{
+    background-color:#FF6000;
+}
+
+.iterative_phone_image{
+    width:40vw;
+}
+
+.redesign_col{
+    background-color:#FFD500;
+}
+
+.development_col{
+    /* margin-left:0.01vw; */
+    background-color:#CCFF33;
+}
+
+.col_title{
+    font-family: 'IBM Plex Sans';
+    color:black;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+
+/* .welcome_divider{
+    background-color:rgba(226, 175, 255, 0.9);
+} */
+
