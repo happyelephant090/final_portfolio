@@ -26,6 +26,20 @@
          url('fonts/holtwood-one-sc-v16-latin/holtwood-one-sc-v16-latin-regular.svg#HoltwoodOneSC') format('svg'); /* Legacy iOS */
 }
 
+/* goldman-regular - latin */
+@font-face {
+    font-family: 'Goldman';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/goldman-v15-latin/goldman-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/goldman-v15-latin/goldman-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/goldman-v15-latin/goldman-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/goldman-v15-latin/goldman-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/goldman-v15-latin/goldman-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/goldman-v15-latin/goldman-v15-latin-regular.svg#Goldman') format('svg'); /* Legacy iOS */
+  }
+
 .navbar{
     border:0.1vw solid white;
 }
@@ -33,7 +47,7 @@
     color:#FFCEFF !important;
     text-decoration:none;
     font-family: 'IBM Plex Sans';
-    font-size: 1.7rem;
+    font-size: 1.75rem;
     letter-spacing:0.3vw;
     margin-left:1vw;
     
@@ -81,8 +95,8 @@
 
 .welcome{
     position:absolute;
-    left: 37.5vw;;
-    top: 21vw;
+    left: 40vw;;
+    top: 18.7vw;
     width: 555px;
     height: 200px;
     z-index: 2;
@@ -119,7 +133,7 @@
 }
 
 .scroll_slogan{
-    font-size:1.5rem;
+    font-size:2rem;
     color:black;
     margin-left:1vw;
 }
@@ -131,8 +145,8 @@
 }
 
 .work_title{
-    font-size:2.55rem;
-    font-family: 'Holtwood One SC';
+    font-size:3rem;
+    font-family: 'Goldman';
     color:black;
 }
 
@@ -171,9 +185,9 @@
 }
 
 .col_title{
-    font-family: 'IBM Plex Sans';
+    font-family: 'Goldman';
     color:black;
-    font-size:2rem;
+    font-size:2.2rem;
     font-weight:bold;
 }
 
@@ -185,9 +199,7 @@
     background-color:#FF6000;
 }
 
-h3{
-    font-size:2.2rem;
-}
+
 
 /* .welcome_divider{
     background-color:rgba(226, 175, 255, 0.9);
