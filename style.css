@@ -38,25 +38,35 @@
          url('fonts/goldman-v15-latin/goldman-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
          url('fonts/goldman-v15-latin/goldman-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('fonts/goldman-v15-latin/goldman-v15-latin-regular.svg#Goldman') format('svg'); /* Legacy iOS */
+}
+
+/* dm-serif-text-regular - latin */
+@font-face {
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/dm-serif-text-v10-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/dm-serif-text-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/dm-serif-text-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/dm-serif-text-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/dm-serif-text-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/dm-serif-text-v10-latin-regular.svg#DMSerifText') format('svg'); /* Legacy iOS */
   }
 
-.navbar{
-    border:0.1vw solid white;
-}
 .nav-brand{
     color:#FFCEFF !important;
     text-decoration:none;
-    font-family: 'IBM Plex Sans';
+    font-family: 'DM Serif Text';
     font-size: 1.75rem;
     letter-spacing:0.3vw;
     margin-left:1vw;
-    
 }
 
 .nav-item .nav-link{
     color:#FFCEFF !important;
     font-size:1.5rem;
-    font-family: 'IBM Plex Sans';
+    font-family: 'DM Serif Text';
     margin-right:0.7vw;
     margin-left:3vw;
 }
@@ -65,14 +75,13 @@
     height:4vw;
     width:4vw;
     margin-left:1.5vw;
-    opacity:0.2;
+    opacity:0.14;
 }
 
 .smile_outline_1{
     height:4vw;
     width:4vw;
-    opacity:0.2;
-    /* margin-left:1.5vw; */
+    opacity:0.14;
 }
 
 .welcome_background{
@@ -80,18 +89,6 @@
     margin-top:6vw;
     border:1.5vw solid white;
 }
-
-
-/* .overlay{
-    position:absolute; */
-    /* left: 20vw;; */
-    /* top: 6vw;
-    width: 100vw;
-    height: 40vw;
-    z-index: 2;
-    background: rgba(226, 175, 255, 0.83);
-    border:1.5vw solid white;
-} */
 
 .welcome{
     position:absolute;
@@ -106,13 +103,11 @@
     color:white;
     font-family: 'Holtwood One SC';
     font-size:4rem;
-   
 }
 
 .intro_slogan{
     color:white;
     font-family: 'IBM Plex Sans';
-    /* text-align:center; */
     margin-right:0.75vw;
     font-size:2rem;
 }
@@ -125,39 +120,36 @@
 }
 
 .scroll_banner{
-    /* position:relative; */
-    background: rgba(184, 242, 230, 0.8);
+    background: rgba(184, 242, 230, 1);
     height:17vw;
     border:1.5vw solid white;
-    margin-bottom:1vw;
 }
 
 .scroll_slogan{
     font-size:2rem;
     color:black;
     margin-left:1vw;
+    font-family: 'DM Serif Text';
 }
 
 .arrow{
-    height:3vw;
+    height:6vw;
     align-items:center;
     justify-content:center;
 }
 
 .work_title{
     font-size:3rem;
-    font-family: 'Goldman';
+    font-family: 'DM Serif Text';
     color:black;
+    font-weight:bold;
 }
 
 .col-lg-6 {
-    /* marginz; */
-    /* margin-bottom:3vw !important;
-    margin-top:3vw !important; */
     background-color:#FF5A5F;
     border:1.75vw solid white;
-    /* 025b6d */
 }
+
 .persona_phone_image{
     width:40vw;
     margin-left:2vw !important;
@@ -180,7 +172,6 @@
 }
 
 .development_col{
-    /* margin-left:0.01vw; */
     background-color:#CCFF33;
 }
 
@@ -193,15 +184,40 @@
 
 .persona_col:hover{
     background-color:#ff220c;
-  }
+}
 
 .iterative_col:hover{
     background-color:#FF6000;
 }
 
+.about_title{
+    font-family: 'DM Serif Text';
+    color:black;
+    font-size:3rem;
+    font-weight:bold;
+}
+p{
+    font-size:2rem;
+    font-family: 'DM Serif Text';
+    margin-left:1vw;
+    width:70vw;
+}
 
+.about_divider{
+    background: rgba(184, 242, 230);
+    border:1.5vw solid white;
+    
+}
 
-/* .welcome_divider{
-    background-color:rgba(226, 175, 255, 0.9);
-} */
+.smile_outline_2{
+    opacity:0.16;
+    height:3vw;
+    width:3vw;
+}
+
+.elephant_image{
+    height:9vw;
+    width:9wv;
+}
+
 
