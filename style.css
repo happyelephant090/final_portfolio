@@ -235,10 +235,20 @@ p{
     margin-left:3vw;
 }
 
+
+.phone_image:hover{
+    transform: scale(1.05);
+}
+
+
 .phone_image_1{
     width:45vw;
     height:20vw;
     margin-left:3vw;
+}
+
+.phone_image_1:hover{
+    transform: scale(1.05);
 }
 
 .phone_image_2{
@@ -247,9 +257,18 @@ p{
     margin-left:3vw;
 }
 
+
+.phone_image_2:hover{
+    transform: scale(1.05);
+}
+
 .phone_image_3{
     width:43vw;
     height:20vw;
     margin-left:1.7vw;
+}
+
+.phone_image_3:hover{
+    transform: scale(1.05);
 }
 
