@@ -92,7 +92,7 @@
 
 .welcome{
     position:absolute;
-    left: 37vw;;
+    left: 40vw;;
     top: 18.7vw;
     width: 555px;
     height: 200px;
@@ -168,12 +168,20 @@
 }
 
 .redesign_col{
-    background-color:#FFD500;
+    background-color:#ffffad;
 }
 
+.redesign_col:hover{
+    background-color:#FFD500;
+}
 .development_col{
+    background-color:#c7f9cc
+}
+
+.development_col:hover{
     background-color:#CCFF33;
 }
+
 
 .col_title{
     font-family: 'Goldman';
@@ -221,4 +229,27 @@ p{
     width:9wv;
 }
 
+.phone_image{
+    width:40vw;
+    height:20vw;
+    margin-left:3vw;
+}
+
+.phone_image_1{
+    width:45vw;
+    height:20vw;
+    margin-left:3vw;
+}
+
+.phone_image_2{
+    width:40vw;
+    height:20vw;
+    margin-left:3vw;
+}
+
+.phone_image_3{
+    width:43vw;
+    height:20vw;
+    margin-left:1.7vw;
+}
 
